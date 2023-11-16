@@ -11,6 +11,8 @@
 		39B8F9622B069D6200554A99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F9612B069D6200554A99 /* ContentView.swift */; };
 		39B8F9642B069D6500554A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B8F9632B069D6500554A99 /* Assets.xcassets */; };
 		39B8F9672B069D6500554A99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39B8F9662B069D6500554A99 /* Preview Assets.xcassets */; };
+		39B8F96E2B069FC400554A99 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F96D2B069FC400554A99 /* MobileNetV2.mlmodel */; };
+		39B8F9702B069FF900554A99 /* UIImage+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F96F2B069FF900554A99 /* UIImage+Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		39B8F9612B069D6200554A99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39B8F9632B069D6500554A99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39B8F9662B069D6500554A99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39B8F96D2B069FC400554A99 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		39B8F96F2B069FF900554A99 /* UIImage+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extentions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				39B8F95F2B069D6200554A99 /* CoreML_ProjectApp.swift */,
 				39B8F9612B069D6200554A99 /* ContentView.swift */,
+				39B8F96F2B069FF900554A99 /* UIImage+Extentions.swift */,
+				39B8F96D2B069FC400554A99 /* MobileNetV2.mlmodel */,
 				39B8F9632B069D6500554A99 /* Assets.xcassets */,
 				39B8F9652B069D6500554A99 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39B8F9702B069FF900554A99 /* UIImage+Extentions.swift in Sources */,
+				39B8F96E2B069FC400554A99 /* MobileNetV2.mlmodel in Sources */,
 				39B8F9622B069D6200554A99 /* ContentView.swift in Sources */,
 				39B8F9602B069D6200554A99 /* CoreML_ProjectApp.swift in Sources */,
 			);
